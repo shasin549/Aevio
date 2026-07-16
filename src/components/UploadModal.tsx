@@ -86,8 +86,9 @@ export const UploadModal: React.FC<UploadModalProps> = ({ onClose, onNavigate })
       }
     };
 
-    video.onerror = () => {
-      setErrorMsg('Failed to process video file.');
+    video.onerror = (e) => {
+      console.warn('Failed to process video for thumbnail generation, using fallback.', e);
+      setThumbnailUrl('https://images.unsplash.com/photo-1574375927938-d5a98e8edd86?w=800&auto=format&fit=crop&q=80');
       setIsGeneratingThumbnail(false);
     };
   };
