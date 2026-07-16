@@ -1,0 +1,6 @@
+{
+  "name": "Video Sharing App",
+  "description": "A modern full-stack video sharing web application similar to YouTube with video upload, rich player, comments, and profile management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

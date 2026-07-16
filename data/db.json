@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "admin-user",
+      "name": "Admin Developer",
+      "email": "shasinsha7384@gmail.com",
+      "passwordHash": "0a55438b0c59fc2818891d8275b2ee08:754e15c7885e69abb2a118dbd6d45ef228fef8c1dce83de62a4ddae07e94ebd204bd9c3209e1da9c43cf7c20a507a9fe570d120e01d12d8ed631cc4f6733d595",
+      "profilePhoto": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "bio": "Primary administrator of the Video Sharing platform.",
+      "subscribers": [],
+      "subscribedTo": [],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "isAdmin": true
+    }
+  ],
+  "videos": [],
+  "comments": [],
+  "playlists": [
+    {
+      "id": "play-1",
+      "userId": "admin-user",
+      "name": "Watch Later",
+      "videoIds": [],
+      "isPrivate": true,
+      "createdAt": "2026-05-12T00:00:00.000Z"
+    },
+    {
+      "id": "play-2",
+      "userId": "admin-user",
+      "name": "Coding Focus",
+      "videoIds": [],
+      "isPrivate": false,
+      "createdAt": "2026-06-05T00:00:00.000Z"
+    }
+  ],
+  "notifications": [],
+  "reports": []
+}
